@@ -170,6 +170,38 @@ footer {
   justify-content: center;
   align-items: center;
 }
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+}
+.navbar {
+  display: grid;
+  justify-content: center;
+}
+.navbar h1 {
+  font-size: 3.2rem;
+  margin: 20px auto;
+}
+.navbar nav {
+  margin-bottom: 20px;
+}
+.navbar nav a {
+  padding: 10px;
+  font-size: 1.8rem;
+  color: var(--black);
+  text-decoration: none;
+}
+.navbar nav a:hover {
+  color: var(--yellow);
+}
+.home .intro img {
+  border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    border-radius: 0;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -180,6 +212,15 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images img {
+    width: 100% !important;
+  }
 }
 .home .space-images img {
   width: 28%;
@@ -203,6 +244,14 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column;
+  }
+  .home .walk .walk-img {
+    order: 2;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -211,6 +260,16 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  width: 120px;
+  padding: 10px 20px;
+  background: #22283a;
+  border-radius: 10px;
 }
 .home .walk .walk-img {
   width: 46%;

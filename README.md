@@ -36,12 +36,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? it sets the base font-size to 10px so each rem is equal to 10px
 
 4. How would you describe preprocessing to someone new to CSS?
-
+preprocessing is basically using a library built on top of another language that allows you to write less code and when done will output a file in the language of the original language with all the code that will make it work
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-
+my favorite part of preprocessing is writing less code to essentially achieve the same result , parametric mixins I feel are a part that I struggle with the most
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
@@ -56,13 +56,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
