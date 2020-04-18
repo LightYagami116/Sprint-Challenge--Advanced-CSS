@@ -1,3 +1,9 @@
+/*.btnstyle(@background; @font-size){
+  .btn{
+    background: @background;
+    font-size: @font-size;
+  }
+}*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -169,6 +175,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: 1s colorShift infinite;
+}
+@keyframes colorShift {
+  0% {
+    color: red;
+  }
+  100% {
+    color: blue;
+  }
 }
 :root {
   --yellow: #ffc600;
@@ -285,6 +300,10 @@ footer {
   padding: 10px 20px;
   background: #22283a;
   border-radius: 10px;
+}
+.home .walk .walk-text .btn:hover {
+  color: var(--yellow);
+  background: rgba(34, 40, 58, 0.8);
 }
 .home .walk .walk-img {
   width: 46%;
