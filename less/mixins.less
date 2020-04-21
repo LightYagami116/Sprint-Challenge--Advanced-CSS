@@ -1,1 +1,20 @@
 // Mixins Here
+/*.btnstyle(@background; @font-size){
+  .btn{
+    background: @background;
+    font-size: @font-size;
+  }
+}*/
+.btn-styles(@font-size, @background, @color){
+  font-size: @font-size;
+  font-weight: bold;
+  text-align: center;
+  color: @color;
+  width: 120px;
+  padding: 10px 20px;
+  background: @background;
+  border-radius: 10px;
+}
+.width-full(){
+  width: 100%;
+}
